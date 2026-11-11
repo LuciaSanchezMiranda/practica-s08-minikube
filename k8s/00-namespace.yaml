@@ -1,0 +1,5 @@
+# Namespace aislado para todos los recursos de la práctica S08.
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: practica-s08

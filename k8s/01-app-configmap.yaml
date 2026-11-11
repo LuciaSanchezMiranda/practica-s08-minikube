@@ -1,0 +1,10 @@
+# Configuración no sensible consumida por el backend.
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: practica-s08
+data:
+  DB_HOST: mongo-service
+  DB_NAME: practica_db
+  APP_PORT: "3000"
